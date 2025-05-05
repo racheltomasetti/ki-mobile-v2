@@ -1,5 +1,7 @@
 import React from "react";
 import { View } from "react-native";
+import ViewDailyInsightsButton from "../components/buttons/ViewDailyInsightsButton";
+import CycleWidget from "../components/CycleWidget";
 import UserJournal from "../components/UserJournal";
 import { Flexoki } from "../theme/colors";
 
@@ -18,6 +20,8 @@ export default function Journal() {
         backgroundColor: Flexoki.ui,
       }}
     >
+      <CycleWidget />
+      <ViewDailyInsightsButton />
       <UserJournal />
 
       {/* <Text

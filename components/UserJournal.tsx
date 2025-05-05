@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
     minWidth: 320,
-    maxWidth: 360,
+    maxWidth: 340,
     alignSelf: "center",
   },
   cardHeader: {
